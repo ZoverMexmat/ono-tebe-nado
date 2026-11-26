@@ -4,31 +4,59 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 1100px;
-  margin: 0 auto;
-  font-family: Raleway, sans-serif;
+html {
+  scroll-behavior: smooth;
 }
 
+body,
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p,
 ul,
-ol,
-li,
-blockquote {
+address {
   margin: 0;
+}
+
+ul {
   padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 a {
   color: inherit;
 }
 
-img {
-  width: 100%;
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  min-width: 320px;
+  max-width: 1100px;
+  margin: 0 auto;
+  color: #000;
+  background: #fff;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+button {
+  font: inherit;
+}
+
+address {
+  font-style: normal;
+}
+
+.section {
+  margin: 0 auto;
+  max-width: 1052px;
 }
